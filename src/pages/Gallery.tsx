@@ -1,8 +1,7 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Gallery as GalleryIcon, Filter } from "lucide-react";
+import { ImageIcon, Filter } from "lucide-react";
 
 // Define our globe categories
 const categories = [
@@ -126,7 +125,7 @@ const Gallery = () => {
             <div className={`md:block ${showMobileFilter ? 'block' : 'hidden'} md:col-span-1`}>
               <div className="bg-white rounded-lg shadow-md p-6">
                 <h3 className="font-serif text-xl font-semibold text-navy-dark mb-4 flex items-center">
-                  <GalleryIcon size={20} className="mr-2" /> Collections
+                  <ImageIcon size={20} className="mr-2" /> Collections
                 </h3>
                 
                 <div className="space-y-2">
