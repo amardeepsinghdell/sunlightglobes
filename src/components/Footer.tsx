@@ -15,7 +15,7 @@ const Footer = () => {
               <span className="font-serif text-xl font-medium text-white">Sunlight Globes</span>
             </Link>
             <p className="text-sm text-gray-300 mb-4">
-              Crafting premium globes that inspire wonder and exploration since 1985.
+              Crafting premium globes that inspire wonder and exploration since 1981.
             </p>
           </div>
 

@@ -33,8 +33,8 @@ const About = () => {
                 ourselves to creating products that combine functionality with elegance.
               </p>
               <p className="text-navy-dark/80">
-                Founded by master cartographer Thomas Sunlight in 1985, our company started with 
-                a workshop in Atlas City with just three artisans. Today, we've expanded to a team 
+                Founded by master cartographer Charan Singh in 1981, our company started with 
+                a workshop in New Delhi with just three artisans. Today, we've expanded to a team 
                 of over 50 skilled craftspeople across multiple workshops, maintaining the same 
                 dedication to quality that defined our beginnings.
               </p>
@@ -46,7 +46,7 @@ const About = () => {
                 className="rounded-lg shadow-lg"
               />
               <div className="absolute -bottom-4 -right-4 bg-gold text-white p-3 rounded-lg shadow-lg">
-                <p className="font-serif text-lg">Est. 1985</p>
+                <p className="font-serif text-lg">Est. 1981</p>
               </div>
             </div>
           </div>
@@ -171,7 +171,7 @@ const About = () => {
                 <div className="font-serif text-gold text-xl mb-2">1985</div>
                 <h3 className="font-serif font-semibold text-xl mb-2">Foundation</h3>
                 <p className="text-white/80">
-                  Sunlight Overseas Inc. was founded by Thomas Sunlight in Atlas City, beginning with a small workshop specializing in hand-crafted globes.
+                  Sunlight Overseas Inc. was founded by Charan Singh in New Delhi, beginning with a small workshop specializing in hand-crafted globes.
                 </p>
               </div>
             </div>
