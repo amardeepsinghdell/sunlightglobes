@@ -57,7 +57,7 @@ const Home = () => {
             <div className="group globe-card bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
               <div className="relative h-64 overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1614935152048-3e36d276b26c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" 
+                  src="/lovable-uploads/e73e6032-3fb6-4e23-9052-c14557d262d9.png" 
                   alt="Antique Style Globe"
                   className="w-full h-full object-cover transition-transform duration-500"
                 />
@@ -89,7 +89,7 @@ const Home = () => {
             <div className="group globe-card bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
               <div className="relative h-64 overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1619542402915-dcaf30e4e2db?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" 
+                  src="/lovable-uploads/a1dc9583-befe-41df-bb21-3ef659675a0c.png" 
                   alt="Modern Design Globe"
                   className="w-full h-full object-cover transition-transform duration-500"
                 />
@@ -121,7 +121,7 @@ const Home = () => {
             <div className="group globe-card bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300">
               <div className="relative h-64 overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1599930113854-d6d7fd522947?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" 
+                  src="/lovable-uploads/e73e6032-3fb6-4e23-9052-c14557d262d9.png" 
                   alt="Luxury Globe"
                   className="w-full h-full object-cover transition-transform duration-500"
                 />
