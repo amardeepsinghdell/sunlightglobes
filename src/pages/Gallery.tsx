@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
@@ -12,69 +13,69 @@ const categories = [
   { id: "luxury", label: "Luxury Collection" },
 ];
 
-// Define our gallery items
+// Define our gallery items with new images
 const galleryItems = [
   {
     id: 1,
     title: "Classic Antique Globe",
     category: "antique",
-    image: "https://images.unsplash.com/photo-1614935152048-3e36d276b26c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+    image: "/lovable-uploads/e73e6032-3fb6-4e23-9052-c14557d262d9.png",
     description: "A timeless antique-style globe with detailed topographical features.",
   },
   {
     id: 2,
     title: "Modern Minimalist Globe",
     category: "modern",
-    image: "https://images.unsplash.com/photo-1658155299617-5d7e0f026a2c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+    image: "/lovable-uploads/a1dc9583-befe-41df-bb21-3ef659675a0c.png",
     description: "A sleek, minimalist globe design perfect for contemporary spaces.",
   },
   {
     id: 3,
     title: "Celestial Illuminated Globe",
     category: "illuminated",
-    image: "https://images.unsplash.com/photo-1619542402915-dcaf30e4e2db?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+    image: "/lovable-uploads/e73e6032-3fb6-4e23-9052-c14557d262d9.png",
     description: "An illuminated globe showcasing both geographical and celestial features.",
   },
   {
     id: 4,
     title: "Executive Crystal Globe",
     category: "luxury",
-    image: "https://images.unsplash.com/photo-1599930113854-d6d7fd522947?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+    image: "/lovable-uploads/a1dc9583-befe-41df-bb21-3ef659675a0c.png",
     description: "A premium crystal globe with gold-plated meridian and base.",
   },
   {
     id: 5,
     title: "Desktop Antique Globe",
     category: "antique",
-    image: "https://images.unsplash.com/photo-1590001155093-a3c66ab0c3ff?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+    image: "/lovable-uploads/e73e6032-3fb6-4e23-9052-c14557d262d9.png",
     description: "A compact antique-style globe perfect for desks and small spaces.",
   },
   {
     id: 6,
     title: "Ocean Relief Globe",
     category: "modern",
-    image: "https://images.unsplash.com/photo-1519802772250-a52a9af0eacb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1074&q=80",
+    image: "/lovable-uploads/a1dc9583-befe-41df-bb21-3ef659675a0c.png",
     description: "A modern globe highlighting ocean topography and depths.",
   },
   {
     id: 7,
     title: "Night Sky Illuminated Globe",
     category: "illuminated",
-    image: "https://images.unsplash.com/photo-1581822261290-991b38693d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+    image: "/lovable-uploads/e73e6032-3fb6-4e23-9052-c14557d262d9.png",
     description: "An illuminated globe that transforms into a star map in darkened rooms.",
   },
   {
     id: 8,
     title: "Gold Leaf Luxury Globe",
     category: "luxury",
-    image: "https://images.unsplash.com/photo-1557937879-3d33ebba8499?ixlib=rb-4.0.3&auto=format&fit=crop&w=764&q=80",
+    image: "/lovable-uploads/a1dc9583-befe-41df-bb21-3ef659675a0c.png",
     description: "A handcrafted globe with genuine gold leaf detailing.",
   },
   {
     id: 9,
     title: "Victorian Style Globe",
     category: "antique",
-    image: "https://images.unsplash.com/photo-1571450669798-8deb8763c4d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80",
+    image: "/lovable-uploads/e73e6032-3fb6-4e23-9052-c14557d262d9.png",
     description: "A detailed reproduction of Victorian-era globe craftsmanship.",
   },
 ];
