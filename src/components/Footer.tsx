@@ -78,6 +78,7 @@ const Footer = () => {
                 <Phone size={18} className="text-gold mt-0.5 flex-shrink-0" />
                 <div className="text-sm text-gray-300">
                   <div>+1-416-876-6847 (Canada)</div>
+                  <div>+91-9958363676 (India) </div>
                   <div>+91-9810079707 (India)</div>
                 </div>
               </li>
