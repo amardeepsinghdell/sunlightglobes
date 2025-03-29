@@ -102,7 +102,8 @@ const Contact = () => {
                       Phone
                     </h3>
                     <p className="text-muted-foreground">
-                      +1 (555) 123-4567 <br />
+                      +1-416-876-6847 (Canada) <br />
+                      +91-9810079707 (India) <br />
                       Mon-Fri, 9am-5pm EST
                     </p>
                   </div>
@@ -118,8 +119,7 @@ const Contact = () => {
                       Email
                     </h3>
                     <p className="text-muted-foreground">
-                      info@sunlightglobes.com <br />
-                      support@sunlightglobes.com
+                      sunlightglobe@gmail.com
                     </p>
                   </div>
                 </div>
