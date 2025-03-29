@@ -1,6 +1,6 @@
 
 import { Link } from "react-router-dom";
-import { GlobeIcon, Mail, Phone, MapPin, Instagram, Facebook, Twitter } from "lucide-react";
+import { GlobeIcon, Mail, Phone } from "lucide-react";
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -17,17 +17,6 @@ const Footer = () => {
             <p className="text-sm text-gray-300 mb-4">
               Crafting premium globes that inspire wonder and exploration since 1985.
             </p>
-            <div className="flex space-x-4">
-              <a href="#" className="text-gray-300 hover:text-gold transition-colors" aria-label="Instagram">
-                <Instagram size={20} />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-gold transition-colors" aria-label="Facebook">
-                <Facebook size={20} />
-              </a>
-              <a href="#" className="text-gray-300 hover:text-gold transition-colors" aria-label="Twitter">
-                <Twitter size={20} />
-              </a>
-            </div>
           </div>
 
           <div>
@@ -85,12 +74,6 @@ const Footer = () => {
           <div>
             <h3 className="font-serif text-lg font-medium mb-4">Contact Us</h3>
             <ul className="space-y-3">
-              <li className="flex items-start space-x-3">
-                <MapPin size={18} className="text-gold mt-0.5 flex-shrink-0" />
-                <span className="text-sm text-gray-300">
-                  123 Cartography Lane, Atlas City, AC 12345
-                </span>
-              </li>
               <li className="flex items-start space-x-3">
                 <Phone size={18} className="text-gold mt-0.5 flex-shrink-0" />
                 <div className="text-sm text-gray-300">

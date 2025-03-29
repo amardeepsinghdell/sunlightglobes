@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { MapPin, Phone, Mail, Send, CheckCircle } from "lucide-react";
+import { Phone, Mail, Send, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -75,23 +75,6 @@ const Contact = () => {
               </h2>
               
               <div className="space-y-8">
-                {/* Office */}
-                <div className="flex">
-                  <div className="mr-4 flex items-center justify-center w-12 h-12 rounded-full bg-navy-light/10 text-navy-dark flex-shrink-0">
-                    <MapPin size={24} />
-                  </div>
-                  <div>
-                    <h3 className="font-medium text-navy-dark mb-1">
-                      Main Office
-                    </h3>
-                    <p className="text-muted-foreground">
-                      123 Cartography Lane <br />
-                      Atlas City, AC 12345 <br />
-                      United States
-                    </p>
-                  </div>
-                </div>
-
                 {/* Phone */}
                 <div className="flex">
                   <div className="mr-4 flex items-center justify-center w-12 h-12 rounded-full bg-navy-light/10 text-navy-dark flex-shrink-0">
@@ -280,21 +263,7 @@ const Contact = () => {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-0">
-        <div className="h-96 w-full">
-          <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.3059353029!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2s!4v1659123456789!5m2!1sen!2s" 
-            width="100%" 
-            height="100%" 
-            style={{ border: 0 }} 
-            allowFullScreen={true} 
-            loading="lazy" 
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Company Location"
-          ></iframe>
-        </div>
-      </section>
+      {/* Map Section - Removed */}
     </>
   );
 };
