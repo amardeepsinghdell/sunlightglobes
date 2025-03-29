@@ -10,7 +10,7 @@ const Home = () => {
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img 
-            src="https://images.unsplash.com/photo-1589366025133-40a624204f43?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" 
+            src="/lovable-uploads/e73e6032-3fb6-4e23-9052-c14557d262d9.png" 
             alt="Premium Globe"
             className="w-full h-full object-cover"
           />
