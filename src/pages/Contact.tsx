@@ -85,6 +85,7 @@ const Contact = () => {
                       Phone
                     </h3>
                     <p className="text-muted-foreground">
+                      +91-9958363676 (India) <br />
                       +1-416-876-6847 (Canada) <br />
                       +91-9810079707 (India) <br />
                       Mon-Fri, 9am-5pm EST
