@@ -1,13 +1,14 @@
-
 import { useState } from "react";
 import { Phone, Mail, Send, CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
+import { useEmail } from "@/utils/emailService";
 
 const Contact = () => {
   const { toast } = useToast();
+  const { sendEmailWithNotification } = useEmail();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -23,28 +24,35 @@ const Contact = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
-      setIsSubmitting(false);
-      setIsSubmitted(true);
+    try {
+      // Send email using our email service
+      const success = await sendEmailWithNotification(formData);
+      
+      if (success) {
+        setIsSubmitted(true);
+        // Reset form after success
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
+        });
+      }
+    } catch (error) {
+      console.error("Error in form submission:", error);
       toast({
-        title: "Message Sent Successfully",
-        description: "We will get back to you as soon as possible.",
-        variant: "default",
+        title: "An error occurred",
+        description: "There was a problem sending your message. Please try again.",
+        variant: "destructive",
       });
-      // Reset form after success
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        subject: "",
-        message: "",
-      });
-    }, 1500);
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
