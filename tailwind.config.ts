@@ -64,14 +64,14 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				gold: {
-					light: '#d4af37',
-					DEFAULT: '#b8860b',
-					dark: '#996515'
+					light: '#e6d7b8',
+					DEFAULT: '#d4c9a8',
+					dark: '#c2b998'
 				},
 				navy: {
-					light: '#394867',
-					DEFAULT: '#212A3E',
-					dark: '#0F1729'
+					light: '#f5f2eb',
+					DEFAULT: '#e8e4d6',
+					dark: '#dbd5c3'
 				}
 			},
 			borderRadius: {
