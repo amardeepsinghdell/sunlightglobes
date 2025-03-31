@@ -8,25 +8,25 @@
 @layer base {
   :root {
     --background: 36 33% 97%;
-    --foreground: 20 10% 10%;
+    --foreground: 0 0% 0%; /* Changed to black */
 
     --card: 0 0% 100%;
-    --card-foreground: 20 10% 10%;
+    --card-foreground: 0 0% 0%; /* Changed to black */
 
     --popover: 0 0% 100%;
-    --popover-foreground: 20 10% 10%;
+    --popover-foreground: 0 0% 0%; /* Changed to black */
 
     --primary: 36 30% 20%;
     --primary-foreground: 36 33% 97%;
 
     --secondary: 36 20% 85%;
-    --secondary-foreground: 36 30% 20%;
+    --secondary-foreground: 0 0% 0%; /* Changed to black */
 
     --muted: 36 20% 92%;
-    --muted-foreground: 36 10% 40%;
+    --muted-foreground: 0 0% 20%; /* Changed to darker black */
 
     --accent: 36 40% 85%;
-    --accent-foreground: 36 30% 20%;
+    --accent-foreground: 0 0% 0%; /* Changed to black */
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 36 33% 97%;

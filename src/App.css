@@ -41,5 +41,5 @@
 }
 
 .read-the-docs {
-  color: hsl(36, 10%, 40%);
+  color: #000; /* Changed to black */
 }
